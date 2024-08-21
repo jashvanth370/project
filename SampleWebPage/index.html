@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> Login Form Design </title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="boX">
+        <img src="user.png" alt="user photo">
+        <h1> LOGIN HERE </h1>
+        <form method="post" name="myform" onsubmit="return vfun()">
+            <p> user name</p>
+            <input type="text" name="uname" placeholder="Enter your username" required>
+
+            <p>Password</p>
+            <input type="password" name="pwd" placeholder="Enter your password" required>
+
+            <div id="errorbox"></div>
+            <input type="submit" value="Login" name="submit">
+
+            <br><br>
+            <a href="register.html" >Register for new account </a>
+        </form>
+    </div>
+
+    <script src="script.js" type="text/javascript"></script>
+</body>
+</html>

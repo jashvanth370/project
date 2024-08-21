@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> Login Form Design </title>
+    <link rel="stylesheet" href="style.css" type="text/css">
+</head>
+<body>
+    <div class="boX">
+        <img src="user.png" alt="user photo">
+        <h1> Regiter new account </h1>
+        <form method="post" name="myform1" onsubmit="return vfun1()" action="register.php">
+            <p> user name </p>
+            <input type="text" name="uname1" placeholder="Enter your username" required>
+
+            <p> Email  </p>
+            <input type="email" name="email" placeholder="Enter your email id" required>
+
+            <p>Password</p>
+            <input type="password" name="pwd1" placeholder="Enter your password" required>
+
+            <p>Retype Password</p>
+            <input type="password" name="pwd2" placeholder="Re enter your password" required>
+
+            <div id="errorbox"></div>
+            <input type="submit" value="register" name="submit">
+
+            <br><br>
+            <a href="index.html" > existing user ,login !?</a>
+        </form>
+    </div>
+
+    <script src="script.js" type="text/javascript"></script>
+</body>
+</html>
